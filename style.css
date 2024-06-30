@@ -17,7 +17,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/bg1.jpg);
+    background-image: url(images/desktop-background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -218,20 +218,20 @@ nav ul li a:hover::after{
     padding: 50px 0;
 }
 
-.work-list{
+.Projects-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.work{
+.Projects{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
-.work img{
+.Projects img{
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -275,11 +275,11 @@ nav ul li a:hover::after{
     border-radius: 50%;
 }
 
-.work:hover img{
+.Projects:hover img{
     transform: scale(1.1);
 }
 
-.work:hover .layer{
+.Projects:hover .layer{
     height: 100%;
 }
 
